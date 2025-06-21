@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+      font-family: "Poppins", sans-serif;
+}
+.header{
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+}
+.header__name{
+    font-size: 60px;
+}
+.header__position{
+    padding-bottom: 10px;
+    
+}
+.header__contact{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+.header__contact a{
+background-color: red;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+     border-radius: 5px;
+}
+.about{
+    padding: 10px;
+}
+.about__content{
+    padding-top: 10px;
+}
+.interests{
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.myinterest{
+    background-color: blue;
+    padding: 10px;
+    color: #fff;border-radius: 5px;
+}
+.projects{
+    background-color: orange;
+    padding: 10px;
+    color: #fff;
+    width: 60%;border-radius: 5px;
+}
+.footer{
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+}
+li{
+    list-style: none;
+}
+.contact__form{
+     background-color: #ff6c0030;
+padding: 20px;
+}
+.contact__form td{
+    padding: 10px;
+}
+.contact__form input, .contact__form textarea{
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+.contact__form--submit{
+    background-color: red !important;
+    border: none !important;
+    border-radius: 5px;
+    color: #fff;
+}
